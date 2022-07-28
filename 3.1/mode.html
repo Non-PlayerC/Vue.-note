@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log("--> mode")
+        let level = 1
+        const title = {
+            tag: `h${level}`// h3 标签
+        }
+    </script>
+</head>
+<body>
+    <!-- 使用 js 变量来描述 h 标签 -->
+    <h1 v-if="level === 1">1</h1>
+    <h2 v-else-if="level === 2">2</h2>
+    <h4 v-else-if="level === 3">3</h4>
+    <h4 v-else-if="level === 4">4</h4>
+    <h5 v-else-if="level === 5">5</h5>
+</body>
+</html>
