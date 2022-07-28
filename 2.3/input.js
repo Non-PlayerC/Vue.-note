@@ -1,2 +1,2 @@
 import { foo } from "./utils";
-foo();
+/*#_PURE_*/ foo();
